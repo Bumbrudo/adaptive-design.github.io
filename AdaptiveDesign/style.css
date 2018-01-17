@@ -1,0 +1,623 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 55px;
+	z-index: 99;
+	max-width: 1250px;
+	width: 100%;
+	
+
+}
+.banner {
+	
+	padding-top: 450px;
+	overflow: hidden;
+	text-align: center;
+	display: flex;
+	background: url('img/bg-header.png') no-repeat center top;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 55px;
+}
+
+.wrapper{
+	
+	/*height: 500px;*/
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	max-width: 1250px;
+	width: 100%;
+	padding: 0 40px;
+}
+
+.footer{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.content{
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*************HEADER*************/
+
+/*Блок 1 - Телефон*/
+header {
+
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+
+header .tel{
+	position: absolute;
+	top: 200px;
+	right: 18px;
+}
+
+header .tel p{
+	color: #fff;
+	font-size: 18px;
+}
+
+header .tel .number{
+	font-size: 26px;
+}
+
+header .tel .number span{
+	font-size: 48px;
+	vertical-align: text-top;
+	line-height: 42px;
+}
+
+/*Конец блока 1*/
+
+/*Блок 2 - Меню*/
+
+header .menuframe{
+	width: 960px;
+	margin: 0 auto;
+}
+
+header .menuframe ul{
+	text-align: center;
+	background: url('img/backmenu.png') no-repeat 50% 50%;
+	background-size: cover;
+}
+
+header .menuframe ul li{
+	display: inline-block;
+	padding: 10px 39.9px;
+	margin: 0-2px;
+}
+
+header .menuframe ul li a{
+	color: #fff;
+	text-transform:  uppercase;
+	text-decoration: none;
+	font-size: 19;
+}
+	
+header .menuframe ul li:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+/*Конец блока 2*/
+
+/*********Конец HEADER**********/
+
+/************WRAPPER************/
+
+/*Блок 3 - Tripplebox*/
+.sec-list {
+	display: flex;
+	text-align: left;
+	margin: 0 -20px;
+
+	
+}
+.sec-list_item {
+	padding: 0 15px;
+	width: 330px;
+	height: 66px;
+}
+.wrapper .tripplebox{
+	margin: 0 auto;
+	width: 950px;
+	height: 50px;
+	margin-bottom: 50px;
+}
+
+.textbox{
+	margin-left: 115px;
+}
+
+.textbox .nije{
+	margin-top: 11px;
+}
+
+.wrapper .tripplebox .project{
+	
+	margin-right: 115px;
+	width: 240px;
+	float: left;
+	
+
+}
+
+.wrapper .tripplebox .produc{
+	
+	margin-right: 115px;
+	width: 240px;
+	float: left;	
+	
+}
+.wrapper .tripplebox .montag{
+
+	width: 240px;
+	float: left;
+	
+	
+	
+}
+
+/*Конец блока 3*/
+
+/*Блок 4 - MainFrame*/
+.hr {
+	height: 1px;
+	background-color: #e6e6e6;
+	/*margin-top: 20px;*/
+}
+.hr2 {
+	height: 1px;
+	background-color: #e6e6e6;
+	
+	margin-bottom: 20px;
+}
+
+.wrapper .mainframe{
+	margin: 0 auto;
+	width: 940px;
+	height: 500px;
+	position: relative;
+
+}
+.link-list {
+	
+	height: auto;
+	
+}
+.wrapper .mainframe .leftframe{
+	flex: 1;
+	float: left;
+	width: 280px;
+	margin-right: 55px;
+}
+
+.wrapper .mainframe .leftframe .razrab{
+	margin-top: 7px;
+}
+
+.wrapper .mainframe .leftframe .online{
+	margin-top: 30px;
+}
+
+.wrapper .mainframe .leftframe .online .ucan{
+	margin-top: 16px;
+	margin-bottom: 8px;
+}
+
+.wrapper .mainframe .leftframe .online .onbutton{
+	width: 233px;
+	height: 41px;
+}
+
+.wrapper .mainframe .rightframe {
+	float: left;
+	width: 605px;
+}
+
+ .wrapper .mainframe .rightframe  ul{
+	list-style: none;
+}
+.link-list  ul{
+	list-style: none;
+}
+
+.link-list ul li a{
+	color: #11adc4;
+	font-family: "MyriadProRegular";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	text-decoration: underline;
+}
+ .wrapper.mainframe .rightframe ul li a{
+	color: #11adc4;
+	font-family: "MyriadProRegular";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	text-decoration: underline;
+}
+
+.link-list  ul li:before{
+	content: "—";
+	position: relative;
+	left: -18px;
+}
+.wrapper .mainframe .rightframe ul li:before{
+	content: "—";
+	position: relative;
+	left: -18px;
+}
+
+/*Конец блока 4*/
+
+/*Блок 5 - Наши проекты*/
+.wrap-our {
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+.wrapper .ourproj{
+	
+	margin: 0 auto;
+
+	margin-bottom: 20px;
+	max-width: 100%;
+    height: auto;
+}
+
+.wrapper .ourproj .fourslide{
+	    position: relative;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.wrapper .ourproj .fourslide .slick-arrow{
+	position: absolute;
+	top: 20%;
+	margin-top: -11px;
+	text-indent: -99999px;
+	z-index: 5;
+}
+
+.wrapper .ourproj .fourslide .slick-prev{
+	background: url('img/arrow.png') no-repeat 50% 50%;
+	width: 45px;
+	height: 45px;
+	line-height: 25px;
+	margin-left: 15px;
+	left: -59px;
+	top: 35px;
+	border: none;
+}
+
+.wrapper .ourproj .fourslide .slick-next{
+	transform: rotate(180deg);
+	background: url('img/arrow.png') no-repeat 50% 50%;
+	width: 45px;
+	height: 45px;
+	right: -43px;
+	top: 35px;
+	border: none;
+}
+
+.wrapper .ourproj .fourslide .buildpic{
+	margin-bottom: 11px;
+}
+
+/*Конец блока 5*/
+
+/********Конец WRAPPER*******/
+
+/***********FOOTER***********/
+
+/*Блок 6 - Подменю*/
+
+footer .undermenu{
+	width: 960px;
+	height: 80px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+footer .undermenu ul li{
+	display: inline-block;
+	padding: 5px 20px;
+	margin: 0-2px;
+}
+
+footer .undermenu ul li a{
+	font-family: "MyriadProRegular";
+	color: #00a7c0;
+	text-transform:  uppercase;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+/*Конец блока 6*/
+
+/*Блок 7 - Последние штрихи*/
+
+footer .tripplecopy{
+	font-family: "MyriadProRegular";
+	width: 1000px;
+	margin: 0 auto;
+	padding-left: 35px;
+	padding-bottom: 190px;
+}
+
+footer .tripplecopy .finding{
+	width: 211px;
+	float: left;
+	margin-right: 120px;
+}
+
+footer .tripplecopy .working{
+	width: 211px;
+	float: left;
+	margin-right: 200px;
+}
+
+footer .tripplecopy .info{
+	width: 211px;
+	float: left;
+}
+
+
+/*Конец блока 7*/
+
+/********Конец FOOTER********/
+
+
+
+
+
+@media (max-height: 860px) {
+	
+	
+	
+}
+
+
+
+@media (max-width: 1199px) {
+	
+	}
+	
+	
+@media (min-width: 992px) {
+	
+}
+
+@media (max-width: 991px) {
+	
+	.banner {
+		height: auto;
+}
+.wrap-hr1 {
+	display: block;
+	margin-top: 360px;
+	
+	width: 750px;
+	height: 20px;
+}
+.hr1 {
+	height: 1px;
+	   
+	background-color: #e6e6e6;
+	
+}
+.hr2 {
+	width: 650px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.wrapper .tripplebox {
+	margin: 0 auto;
+	width: 960px;
+	height: 60px;
+	margin-bottom: 30px;
+	display: flex;
+}
+.sec-list {
+	margin: 0 -10px;
+	}
+.sec-list_item {
+	width: 250px;
+	padding: 0 10px;
+	max-width: 50%;
+	margin: 0 auto 30px;
+	}
+	
+.link-list {
+	display: block;
+	height: 150px;
+	width: 600px;
+    margin-top: 5px;
+    margin-left: 78px;
+}
+.link-list ul{
+	list-style: none;
+}
+.link-list ul li a{
+	color: #11adc4;
+	font-family: "MyriadProRegular";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	text-decoration: underline;
+}
+
+.link-list ul li:before{
+	content: "—";
+	position: relative;
+	left: -18px;
+}
+
+
+	.wrapper .mainframe .rightframe{
+	float: left;
+	width: 400px;
+
+}
+.wrapper .mainframe .leftframe .online {
+	    margin-top: 10px;
+	}
+
+	.wrapper .mainframe {
+    margin: 0 auto;
+    width: 900px;
+    height: 350px;
+    position: relative;
+}
+.wrapper .ourproj{
+	width: 960px;
+	height: 385px;
+	margin: 0 auto;
+	margin-top: 300px;
+	margin-bottom: 40px;
+}
+.ucan {
+	display: none;
+}
+.wrapper .mainframe .leftframe .razrab{
+	margin-top: 7px;
+	line-height: 9px;
+}
+.merida {
+    font-family: "MyriadProRegular";
+   
+}
+
+.wrapper .ourproj .fourslide{
+	    position: relative;
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+}
+.text {
+	    width: 700px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+}
+footer .undermenu{
+	width: 960px;
+	height: 80px;
+	margin-left: 40px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+footer .tripplecopy{
+	font-family: "MyriadProRegular";
+	width: 900px;
+	display: flex;
+	padding-left: 40px;
+	padding-bottom: 18px;
+	margin-left: 0px;
+}
+
+	    
+	    
+}
+
+
+
+
+
+@media (max-width: 767px) {
+	.wrapper {
+		padding-left: 20px;
+		padding-right: 20px;
+	} 
+	
+	.banner  {
+		min-height: 1px;
+		height: auto;
+		padding: 400px 0 0px;
+	}
+.wrapper .tripplebox {
+	margin: 0 auto;
+	width: 250px;
+	height: 60px;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	float: left;
+}
+.sec-list {
+		margin: 0 -10px;
+		display: block;
+	}
+	.sec-list_item {
+	padding: 0 5px;
+	margin: 0 auto 30px;
+    max-width: 420px;
+	}
+
+.wrapper .mainframe .rightframe {
+	float: left;
+	width: 630px;
+}
+.wrapper .mainframe .leftframe{
+		    margin-left: 40px;
+	}
+
+.wrapper .mainframe .leftframe .online {
+	    margin-top: 50px;
+	    align-items: center;
+	    margin-bottom: 50px;
+}
+.link-list {
+	display: block;
+	height: 150px;
+	width: 600px;
+    margin-top: 5px;
+    margin-left: 18px;
+}
+
+}
+
+
+
+	
+
+
+@media (max-width: 479px) {
+
+.wrapper .tripplebox {
+	margin: 0 auto;
+	width: 960px;
+	height: 60px;
+	margin-bottom: 30px;
+}
+.sec-list {
+		margin: 0 -10px;
+		display: block;
+	}
+	.sec-list_item {
+	padding: 0 10px;
+	margin: 0 auto 30px;
+    max-width: 420px;
+	}
+	.wrapper .mainframe .leftframe{
+		    margin-left: 40px;
+	}
+}
+
