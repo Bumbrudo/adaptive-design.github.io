@@ -34,7 +34,8 @@
 	overflow: hidden;
 	max-width: 1250px;
 	width: 100%;
-	padding: 0 40px;
+	height: auto;
+	padding: 0 45px;
 }
 
 .footer{
@@ -186,44 +187,83 @@ header .menuframe ul li:hover{
 
 .wrapper .mainframe{
 	margin: 0 auto;
-	width: 940px;
-	height: 500px;
-	position: relative;
-
-}
-.link-list {
-	
 	height: auto;
+	max-width: 100%;
+	padding-left: 80px;
+	padding-right: 90px;
+	display: flex;
+	
 	
 }
-.wrapper .mainframe .leftframe{
-	flex: 1;
-	float: left;
-	width: 280px;
-	margin-right: 55px;
+.wrapper .mainframe .link-list {
+	  
+	height: auto;
+
+	 margin: 0 auto;
+	width: 100%;
+	display: inline-flex;
+	position: relative;
+	float:left;
+/*padding-bottom: 20px;*/
+	    display: flex;
+    align-items: flex-start;
+
 }
 
+.spis1 {
+	
+	margin-right: 80px;
+	display: block;
+	height: 150px;
+	/*width: 150px;*/
+}
+
+.wrapper .mainframe .leftframe{
+	
+display: flex;
+align-items: flex-start;
+width: 40%;
+ 
+    flex: 1;
+	
+}
+
+.leftframe-wrap {
+	    
+	    margin: 0 auto;
+	margin-right: 30px;
+	margin-left: 30px;
+}
 .wrapper .mainframe .leftframe .razrab{
 	margin-top: 7px;
+	 margin: 0 auto;
 }
 
 .wrapper .mainframe .leftframe .online{
+	 margin: 0 auto;
 	margin-top: 30px;
 }
 
 .wrapper .mainframe .leftframe .online .ucan{
+	 margin: 0 auto;
 	margin-top: 16px;
 	margin-bottom: 8px;
 }
 
 .wrapper .mainframe .leftframe .online .onbutton{
+	 margin: 0 auto;
 	width: 233px;
 	height: 41px;
 }
 
+ 
+
 .wrapper .mainframe .rightframe {
+	
 	float: left;
-	width: 605px;
+	width: 60%;
+
+	
 }
 
  .wrapper .mainframe .rightframe  ul{
@@ -250,16 +290,7 @@ header .menuframe ul li:hover{
 	text-decoration: underline;
 }
 
-.link-list  ul li:before{
-	content: "—";
-	position: relative;
-	left: -18px;
-}
-.wrapper .mainframe .rightframe ul li:before{
-	content: "—";
-	position: relative;
-	left: -18px;
-}
+
 
 /*Конец блока 4*/
 
@@ -267,6 +298,17 @@ header .menuframe ul li:hover{
 .wrap-our {
 	margin-left: 120px;
 	margin-right: 120px;
+	
+}
+.wrap-our_two {
+ height: auto;
+	position: relative;
+	 width: 100%;
+    margin: 0 auto;
+
+    float: left;
+    display: flex;
+    align-items: flex-start;
 }
 
 .wrapper .ourproj{
@@ -282,6 +324,10 @@ header .menuframe ul li:hover{
 	    position: relative;
 	margin-top: 25px;
 	margin-bottom: 25px;
+	height: auto;
+}
+.wrapper .ourproj .fourslide .text {
+	height: auto;
 }
 
 .wrapper .ourproj .fourslide .slick-arrow{
@@ -324,22 +370,43 @@ header .menuframe ul li:hover{
 /***********FOOTER***********/
 
 /*Блок 6 - Подменю*/
+ .footer {
+	max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+ 
 
-footer .undermenu{
-	width: 960px;
-	height: 80px;
+}
+  .footer-wrap {
+	flex-direction: column;
 	margin: 0 auto;
-	overflow: hidden;
-	margin-bottom: 20px;
+	display: flex;
+	margin-left: 120px;
+    margin-right: 120px;
+
 }
 
-footer .undermenu ul li{
+.undermenu{
+	
+	
+
+ width: 100%;
+ display: flex;
+	height: 60px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 10px;
+
+}
+
+ .undermenu ul li{
 	display: inline-block;
-	padding: 5px 20px;
+	padding: 5px;
 	margin: 0-2px;
 }
 
-footer .undermenu ul li a{
+ .undermenu ul li a{
 	font-family: "MyriadProRegular";
 	color: #00a7c0;
 	text-transform:  uppercase;
@@ -352,31 +419,52 @@ footer .undermenu ul li a{
 
 /*Блок 7 - Последние штрихи*/
 
-footer .tripplecopy{
+ .tripplecopy{
 	font-family: "MyriadProRegular";
-	width: 1000px;
+	display: flex;
 	margin: 0 auto;
-	padding-left: 35px;
-	padding-bottom: 190px;
+	width: 100%;
+	padding-bottom: 40px;
+
+}
+.tripplecopy .tripp {
+display: flex;
+	
+	width: 80%;
 }
 
-footer .tripplecopy .finding{
-	width: 211px;
+ .tripplecopy .finding{
+	
+	height: 150px;
+    align-items: flex-start;
+    flex: 1;
+    display: flex;
+    margin-top: 25px;
+  
+}
+
+.wrap-finding {
+	width: 40%;
+    
+    margin-right: 70px;
+    float: right;
+    
+}
+
+.tripplecopy .working{
+	width: 40%;
+	
+	margin-right: 30px;
+	
+
+}
+
+ .tripplecopy .info{
+	
 	float: left;
-	margin-right: 120px;
+	
+	
 }
-
-footer .tripplecopy .working{
-	width: 211px;
-	float: left;
-	margin-right: 200px;
-}
-
-footer .tripplecopy .info{
-	width: 211px;
-	float: left;
-}
-
 
 /*Конец блока 7*/
 
@@ -395,8 +483,36 @@ footer .tripplecopy .info{
 
 
 @media (max-width: 1199px) {
+
+.wrapper{
+	
+	padding: 0 20px;
+}
+	.wrap-our {
+	margin-left: 40px;
+	margin-right: 40px;
+	 
+}
+
+.wrapper .mainframe{
+	
+	padding-left: 10px;
+	padding-right: 10px;
 	
 	}
+	.footer {
+		padding: 0 20px;
+	}
+	.footer-wrap {
+	
+	margin: 0 auto;
+	
+	margin-left: 40px;
+    margin-right: 40px;
+
+}   
+	
+}
 	
 	
 @media (min-width: 992px) {
@@ -408,26 +524,37 @@ footer .tripplecopy .info{
 	.banner {
 		height: auto;
 }
-.wrap-hr1 {
+.wrapper{
+	
+	
+	
+}
+.wrapper .mainframe{
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	}
+/*.wrap-hr1 {
 	display: block;
 	margin-top: 360px;
 	
 	width: 750px;
 	height: 20px;
-}
+}*/
 .hr1 {
 	height: 1px;
 	   
 	background-color: #e6e6e6;
 	
 }
-.hr2 {
+/*.hr2 {
 	width: 650px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	margin-left: 40px;
 	margin-right: 40px;
-}
+}*/
 
 .wrapper .tripplebox {
 	margin: 0 auto;
@@ -446,52 +573,48 @@ footer .tripplecopy .info{
 	margin: 0 auto 30px;
 	}
 	
-.link-list {
+	.wrapper .mainframe .rightframe {
+	
+	display: block;
+	float: left;
+	width: auto;
+	
+}
+.wrapper .mainframe .link-list {
+	  
+	margin-bottom: 20px;
+	height: 150px;
+
+
+}
+.spis1 {
+	
+	margin-right: 20px;
 	display: block;
 	height: 150px;
-	width: 600px;
-    margin-top: 5px;
-    margin-left: 78px;
-}
-.link-list ul{
-	list-style: none;
-}
-.link-list ul li a{
-	color: #11adc4;
-	font-family: "MyriadProRegular";
-	font-size: 13px;
-	font-weight: 400;
-	line-height: 22px;
-	text-decoration: underline;
-}
-
-.link-list ul li:before{
-	content: "—";
-	position: relative;
-	left: -18px;
-}
-
-
-	.wrapper .mainframe .rightframe{
 	float: left;
-	width: 400px;
-
+	/*width: 150px;*/
 }
+.wrapper .mainframe .leftframe{
+	height:auto;
+	width: 100%;
+	align-items: center;
+	margin-bottom: 40px;
+	margin-left: 170px;
+		     
+    
+	}
+
+
 .wrapper .mainframe .leftframe .online {
 	    margin-top: 10px;
 	}
 
-	.wrapper .mainframe {
-    margin: 0 auto;
-    width: 900px;
-    height: 350px;
-    position: relative;
-}
 .wrapper .ourproj{
 	width: 960px;
 	height: 385px;
 	margin: 0 auto;
-	margin-top: 300px;
+	
 	margin-bottom: 40px;
 }
 .ucan {
@@ -512,30 +635,31 @@ footer .tripplecopy .info{
 	margin-bottom: 25px;
 
 }
-.text {
-	    width: 700px;
-	    padding-left: 20px;
-	    padding-right: 20px;
-}
-footer .undermenu{
-	width: 960px;
-	height: 80px;
-	margin-left: 40px;
-	overflow: hidden;
-	margin-bottom: 20px;
-}
 
-footer .tripplecopy{
-	font-family: "MyriadProRegular";
-	width: 900px;
-	display: flex;
-	padding-left: 40px;
-	padding-bottom: 18px;
-	margin-left: 0px;
+	.wrap-our {
+		
+	margin-left: 20px;
+	margin-right: 20px;
+	
 }
+.wrap-our_two {
+ height: auto;
+	position: relative;
+	 width: 100%;
+    margin: 0 auto;
+}
+	    
 
-	    
-	    
+
+	 .footer-wrap {
+	
+	margin: 0 auto;
+	margin-left: 10px;
+    margin-right: 10px;
+
+}   
+
+ 
 }
 
 
@@ -546,8 +670,27 @@ footer .tripplecopy{
 	.wrapper {
 		padding-left: 20px;
 		padding-right: 20px;
+		height: 1350px;
 	} 
+
+	.wrapper .mainframe .leftframe {
+     width: auto; 
+	}
 	
+	.wrapper .mainframe .link-list {
+    height: 150px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.wrap-our_two {
+    height: auto;
+    position: relative;
+    width: auto;
+   
+  
+    display: block;
+    
+}
 	.banner  {
 		min-height: 1px;
 		height: auto;
@@ -571,15 +714,15 @@ footer .tripplecopy{
     max-width: 420px;
 	}
 
-.wrapper .mainframe .rightframe {
-	float: left;
-	width: 630px;
-}
-.wrapper .mainframe .leftframe{
-		    margin-left: 40px;
-	}
+.wrap-our_two {
+ height: auto;
+ display: block;
+	position: relative;
+	 width: 100%;
+    }
 
-.wrapper .mainframe .leftframe .online {
+
+/*.wrapper .mainframe .leftframe .online {
 	    margin-top: 50px;
 	    align-items: center;
 	    margin-bottom: 50px;
@@ -590,34 +733,160 @@ footer .tripplecopy{
 	width: 600px;
     margin-top: 5px;
     margin-left: 18px;
+}*/
+
+}
+
+@media (max-width: 621px) {
+.wrapper {
+		padding-left: 20px;
+		padding-right: 20px;
+		height: 1450px;
+	} 
+	.wrapper .mainframe .link-list {
+    height: auto;
+    display: flex;
+     width: auto;
+     margin-bottom: 20px;
+}
+.spis1 {
+  
+    display: block;
+    height: 150px;
+    width: auto;
+}
+
+
+.wrap-finding {
+	width: 40%;
+    
+    margin-right: 20px;
+    float: right;
+    
 }
 
 }
 
+@media (max-width: 564px) {
+.wrapper {
+		
+		height: 1800px;
+	} 
+.wrapper .mainframe .leftframe {
+    height: auto;
+    width: auto;
+    float: left;
+    display: block;
+margin-left: 0px;
+margin-top: 220px;
+margin-bottom: 20px;
+}
 
+.leftframe-wrap {
+    margin: 0 auto;
+   
+}
 
+.tripplecopy{
 	
+	display: block;
+	height: auto;
+	
+	padding-bottom: 40px;
+
+
+}
+.tripplecopy .finding {
+     height: 80px;
+   
+}
+ .tripplecopy .tripp {
+display: flex;
+width: auto;
+	
+}
+.tripplecopy .working {
+    
+    float: right;
+    
+}
+ .info {
+    float: left;
+    display: block;
+}
+
+
+}	
 
 
 @media (max-width: 479px) {
-
+.wrapper {
+	
+		height: 2100px;
+	} 
 .wrapper .tripplebox {
 	margin: 0 auto;
 	width: 960px;
 	height: 60px;
 	margin-bottom: 30px;
 }
+	.wrapper .mainframe .link-list {
+    height: auto;
+    display: block;
+     width: auto;
+
+}
+.spis1 {
+	
+	width: 100%;
+}
+.spis2 {
+	
+	width: auto;
+}
 .sec-list {
 		margin: 0 -10px;
 		display: block;
 	}
-	.sec-list_item {
+.sec-list_item {
 	padding: 0 10px;
 	margin: 0 auto 30px;
     max-width: 420px;
 	}
-	.wrapper .mainframe .leftframe{
-		    margin-left: 40px;
-	}
+	
+.tripplecopy .tripp {
+display: block;
+width: 100%;
+
+	
+}
+.tripplecopy .finding {
+     height: 60px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+
+.wrap-finding {
+    width: 50%;
+    margin-right: 20px;
+    float: left;
+    height: auto;
+}
+.tripplecopy .working {
+   width: 50%;
+margin-top: 20px; 
+margin-bottom: 20px;
+    float: left;
+    
+}
+
+ .info {
+    float: left;
+    display: block;
+      margin-top: 20px; 
+
+}
+
 }
 
